@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Action Potential</title>
+
+        <!-- jQuery -->
+        <script src="lib/jquery-3.6.1.min.js"></script>
+        <!-- Script -->
+        <script src="script.js" defer></script>
+        <!-- Styling -->
+        <link rel="stylesheet" href="styles/nav.css" />
+        <link rel="stylesheet" href="styles/basic.css" />
+        <link rel="stylesheet" href="styles/menu.css" />
+        <link rel="stylesheet" href="styles/content.css" />
+        <link rel="stylesheet" href="styles/quiz.css"></link>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amethysta&family=Geologica&family=Josefin+Sans&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <nav id="nav" class="nav">
+            <div class="logo-container">
+                <img class="logo" src="assets/ng-logo.png" />
+            </div>
+            <div class="nav-buttons">
+                <button data-open="false" class="menu-toggle" id="menu-toggle">
+                    MENU
+                    <div class="chevron-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </nav>
+        <div id="content-container" class="content-container">
+            <div id="header-container" class="header-container">
+                <div class="img-container">
+                    <img class="harriet-cole" src="assets/harriet-cole.jpg" />
+                </div>
+                <div id="title-container" class="title-container">
+                    <h1 class="title">
+                        The Central Nervous System
+                    </h1>
+                    <p class="subheading">An overview of the structures and functions of the bodily system that allows you to feel, think, remember, and move.</p>
+                </div>
+            </div>
+            <div class="content-body">
+                <p class="standard-margin content-text">
+                    <span class="img-desc">The remains of Hariet Cole, whose nervous system was meticulously dissected and removed from her body to be put on display at Drexel University.</span>
+                    <span class="extra-text"><br><br>BY LUCA DONAIS & EMILY SMALL</span>
+                    <span class="extra-text"><br>PUBLISHED JUNE 13, 2023</span>
+                </p>
+                <hr class="standard-margin">
+                <p class="standard-margin content-text">
+                    // content //
+            </div>
+        </div>
+
+        <div id="quiz-container" class="quiz-container standard-margin">
+            <div class="quiz-question">
+                <p class="question-title">What is the average resting potential of a human neuron?</p>
+                <ul class="answers">
+                    <li class="answer answer-hoverable">-55 mV</li>
+                    <li class="answer answer-hoverable">70 mV</li>
+                    <li class="answer answer-hoverable">30 mV</li>
+                    <li class="answer answer-hoverable c">-70 mV</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <p class="question-title">Amphetamines are a class of stimulant drugs. What effect will they likely have on glutaminergic activity and its effect on the central nervous system?</p>
+                <ul class="answers">
+                    <li class="answer answer-hoverable c">Increased release and reception of glutamate; increased central nervous system activity</li>
+                    <li class="answer answer-hoverable">Increased release and reception of glutamate; reduced central nervous system activity</li>
+                    <li class="answer answer-hoverable">Reduced release and reception of glutamate; increased central nervous system activity</li>
+                    <li class="answer answer-hoverable">Reduced release and reception of glutamate; reduced central nervous system activity</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <p class="question-title">Why can’t a neuron fire during its refractory period?</p>
+                <ul class="answers">
+                    <li class="answer answer-hoverable">There is too much potassium in the intracellular space</li>
+                    <li class="answer answer-hoverable c">The sodium-potassium pump is still working to restore the resting ion balance of the neuron</li>
+                    <li class="answer answer-hoverable">The cell’s chemically-gated ion channels are blocked open by neurotransmitters</li>
+                    <li class="answer answer-hoverable">The neuron is depolarized and needs to be repolarized before it can fire again</li>
+                </ul>
+            </div>
+            <div class="quiz-question">
+                <p class="question-title">Which of the following best describes the all-or-nothing principle of action potentials?</p>
+                <ul class="answers">
+                    <li class="answer answer-hoverable">Action potentials can only occur if the strength of the stimulus falls below the threshold</li>
+                    <li class="answer answer-hoverable">Action potentials can occur with varying magnitudes based on the strength of the stimulus</li>
+                    <li class="answer answer-hoverable">Action potentials occur randomly and are not dependent on the strength of the stimulus</li>
+                    <li class="answer answer-hoverable c">Action potentials can only occur if the stimulus is strong enough to reach the threshold</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div id="menu-container" class="menu-container invisible">
+            <div class="menu-section-headings">
+                <h3 class="menu-section-heading menu-section-heading-top" id="cns-heading"><a href="central-nervous-system.html" class="link-no-format">The Central Nervous System</a></h3>
+                <h3 class="menu-section-heading" id="pns-heading"><a href="peripheral-nervous-system.html" class="link-no-format">Peripheral Nervous System</a></h3>
+                <h3 class="menu-section-heading" id="neu-heading"><a href="action-potential.html" class="link-no-format">The Action Potential</a></h3>
+            </div>
+            <div class="menu-exit" id="menu-exit">
+                <div class="menu-exit-button" id="menu-exit-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+                        <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

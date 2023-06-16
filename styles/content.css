@@ -1,0 +1,70 @@
+body {
+    padding-top: 56px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+.harriet-cole {
+    width: 100%;
+    height: auto;
+}
+.title-container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1.8em;
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 18%
+}
+.title::before {
+    background: #9ED5CB;
+    height: calc(1em - 6px);
+    width: 5px;
+    margin: 0 20px -2px 0;
+    display: inline-block;
+    content: "";
+}
+.title::after {
+    background: #9ED5CB;
+    height: calc(1em - 6px);
+    width: 5px;
+    margin: 0 0 -4px 20px;
+    display: inline-block;
+    content: "";
+}
+.subheading {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 18%
+}
+
+.standard-margin {
+    margin-left: 20%;
+    margin-right: 35%;
+}
+.content-text {
+    font-family: 'Amethysta', serif;
+    font-size: 1.2rem;
+}
+.extra-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+.img-desc {
+    font-family: 'Geologica', sans-serif;
+    font-size: 0.95rem;
+}

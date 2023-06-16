@@ -1,0 +1,7 @@
+body {
+    margin: 0;
+}
+
+.invisible {
+    display: none !important;
+}
