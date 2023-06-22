@@ -34,21 +34,21 @@ $(".menu-section-heading").on("mouseenter", function() {
 });
 // show description when menu element is hovered over
 $("#cns-heading").on("mouseenter.desc", async function() {
-    $("<div class='desc'>Hello, world!</div>").insertAfter($("#cns-heading").parent());
+    $("<div class='desc'>An overview of the central nervous system, which aggregates and responds to all of the mountains of information that comes into your body.</div>").insertAfter($("#cns-heading").parent());
     $("#cns-heading").on("mouseleave", function() {
         $(".desc").remove();
         $("#cns-heading").off("mouseleave.desc");
     })
 })
 $("#pns-heading").on("mouseenter.desc", async function() {
-    $("<div class='desc'>Hello, world!</div>").insertAfter($("#pns-heading").parent());
+    $("<div class='desc'>An overview of the system that allows you to interact with the world, carrying information in and responses out of your central nervous system.</div>").insertAfter($("#pns-heading").parent());
     $("#pns-heading").on("mouseleave", function() {
         $(".desc").remove();
         $("#pns-heading").off("mouseleave.desc");
     })
 })
 $("#neu-heading").on("mouseenter.desc", async function() {
-    $("<div class='desc'>Hello, world!</div>").insertAfter($("#neu-heading").parent());
+    $("<div class='desc'>Your neurons make your broader systems work - but how do <em>they</em> work, on a cellular level?</div>").insertAfter($("#neu-heading").parent());
     $("#neu-heading").on("mouseleave", function() {
         $(".desc").remove();
         $("#neu-heading").off("mouseleave.desc");

@@ -68,3 +68,14 @@ body {
     font-family: 'Geologica', sans-serif;
     font-size: 0.95rem;
 }
+
+.image {
+    margin: 30px 10% 30px 10%;
+    width: 80%;
+    border-style: none;
+    border-radius: 10px;
+}
+.ad {
+    margin: 30px 10% 30px 10%;
+    width: 80%;
+}
